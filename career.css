@@ -1,0 +1,73 @@
+.Career-form{
+padding: 4rem 2rem;
+background: color #f9f9f9;
+}
+.Career-form h2{
+margin: 2px;
+text-align:center;
+font-size: 2rem;
+color:#3d6ef1;
+margin: bottom 2rem; 
+}
+form{
+max-width: 600px;
+margin: 0 auto;
+background: #fff;
+padding: 2rem; 
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.info{
+margin-bottom: 1.2rem;
+}
+.info label{
+display: block;
+font-weight:600;
+margin-bottom: 0.5rem;
+color: #333;
+}
+.info input[type="text"],
+.info input[type="email"],
+.info input[type="tel"],
+.info input[type="file"]{
+width: 100%;
+padding: 0.8rem;
+border: 1px solid #ddd;
+border-radius: 8px;
+font-size: 0.95rem;
+transition: border 0.3s ease;
+}
+.radio{
+display: flex;
+gap: 1.5rem;
+margin-top: 0.5rem;
+}
+.radio label{
+font-weight: 500;
+color: #555;
+}
+.career-btn{
+display: block;
+width:100%;
+background:#fcc513;
+color: #fff;
+padding: 0.8rem;
+border: none;
+border-radius: 8px;
+font-weight: 600;
+cursor: pointer;
+transition:background 0.3s ease;
+}
+.career-btn:hover{
+background-color: #fcc513;
+}
+/* Responsvice */
+@media (max-width:480) {
+    form{
+    padding: 1.5rem;
+    }
+    .Career-form h2{
+    font-size: 1.6rem;
+    }
+}
+
